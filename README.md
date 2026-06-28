@@ -5,7 +5,7 @@ A curated collection of highly interactive, premium, and liquid-smooth button an
 No third-party animation packages. No bloated dependencies. Just math, canvas, and Flutter's built-in animation controllers running at a flawless 60/120fps.
 
 ![Morphing Share Button](assets/flutter_button_animations.gif)
-
+![Elemental Download Button](assets/download_button.gif)
 ---
 
 ## 🎬 The Episodes
@@ -17,8 +17,14 @@ A highly kinetic share button that demonstrates complex physics and state choreo
 - **The Bubble Break**: 4 social platform bubbles (Facebook, WhatsApp, Twitter, LinkedIn) slide out from behind the center into a perfect top-arc using `easeOutBack` spring physics.
 - **The Vacuum & Drop**: Selecting an icon instantly vacuums the rejected bubbles back into the center. The chosen icon then drops into the hub, seamlessly morphing the hub into a confirmation checkmark.
 
-### Episode 02: Coming Soon...
+### Episode 02: Elemental Download Button (Current)
+A physics-driven download button featuring fluid dynamics, CustomPainters, and micro-interactions.
+- **The Elements**: Three distinct physics themes—Water (smooth), Fire (jagged and chaotic), and Toxic Sludge (thick and slow).
+- **The "Wetting" Border**: A dynamic gradient shader instantly colorizes the container border exactly where the liquid touches it.
+- **Surface Reflection**: A semi-transparent wet gloss trace travels along the highest peaks of the sine waves.
+- **Physical Feedback**: Features non-linear download stuttering (TweenSequence), pressure expansion (the button bulges as it fills), and final settling inertia (waves flattening perfectly to 100%).
 
+### Episode 03: Coming Soon...
 ---
 
 ## ✨ Features & Architecture

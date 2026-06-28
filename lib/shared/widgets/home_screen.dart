@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../core/constants/app_colors.dart';
 import '../../features/morphing_share_button/screen/morphing_share_screen.dart';
+import '../../features/liquid_fill_button/screen/liquid_fill_screen.dart';
 import 'episode_card.dart';
 
 /// The showcase home screen.
@@ -20,11 +21,11 @@ class HomeScreen extends StatelessWidget {
     ),
     EpisodeMeta(
       episodeNumber: 2,
-      title: 'Liquid Fill Button',
-      subtitle: 'ClipPath wave animation fills the button on press',
+      title: 'Elemental Download Button',
+      subtitle: 'Water, Fire, and Sludge physics with CustomPainters',
       accentColor: Color(0xFF6C63FF),
-      screen: SizedBox.shrink(),
-      isComingSoon: true,
+      screen: LiquidFillScreen(),
+      isComingSoon: false,
     ),
     EpisodeMeta(
       episodeNumber: 3,
