@@ -8,7 +8,7 @@ The focus of this project is on advanced animation techniques using `AnimationCo
 
 | Morphing Share Button | Elemental Download Button |
 |:---:|:---:|
-| ![](assets/flutter_button_animations.gif) | ![](assets/download_button.gif) |
+| <img src="assets/flutter_button_animations.gif" width="280"> | <img src="assets/download_button.gif" width="280"> |
 
 ---
 
